@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Black Cut</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" aria-label="Fő navigáció">
+      <a class="brand" href="#home" aria-label="Black Cut kezdőlap">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>Black Cut</span>
+      </a>
+      <nav class="nav-links">
+        <a href="#termekek">Termékek</a>
+        <a href="#muhely">Műhely</a>
+        <a href="#rendeles">Rendelés</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="home" aria-label="Japán hangulatú nyitólap">
+        <div class="bamboo-layer" aria-hidden="true">
+          <span></span><span></span><span></span><span></span><span></span>
+        </div>
+
+        <div class="shoji shoji-left" aria-hidden="true">
+          <div class="door-grid"></div>
+        </div>
+        <div class="shoji shoji-right" aria-hidden="true">
+          <div class="door-grid"></div>
+        </div>
+
+        <div class="hero-copy">
+          <p class="eyebrow">Egyedi gravírozott ajándékok és lakásdíszek</p>
+          <h1>
+            <span>Üdvözöljük</span>
+            <span>Black Cut</span>
+            <span>világában</span>
+          </h1>
+          <p>
+            Gravírozott csempék, faképek, lámpák, kulcstartók és fali díszek
+            várják. Töltse fel kedvenc fotóját, írja le az elképzelést, mi
+            pedig személyre szabott termékké formáljuk.
+          </p>
+        </div>
+
+        <section class="catalog-section hero-catalog" id="termekek">
+          <div class="section-heading">
+            <p class="eyebrow">Kategóriák</p>
+            <h2>Válasszon alapot az elképzeléshez</h2>
+            <p>
+              Szűrjön kategóriára, majd nyissa meg a terméket. A rendelési
+              ablakban fotófeltöltés és részletes megjegyzés is van.
+            </p>
+          </div>
+
+          <div class="category-toolbar" role="tablist" aria-label="Termékkategóriák">
+            <button class="category-button active" type="button" data-category="mind">Mind</button>
+            <button class="category-button" type="button" data-category="csempe">Csempék</button>
+            <button class="category-button" type="button" data-category="fakep">Faképek</button>
+            <button class="category-button" type="button" data-category="lampa">Lámpák</button>
+            <button class="category-button" type="button" data-category="ajandek">Kisebb ajándékok</button>
+            <button class="category-button" type="button" data-category="falidiszek">Fali díszek</button>
+          </div>
+
+          <div class="catalog-shell">
+            <button class="rail-button rail-prev" type="button" aria-label="Előző termékek">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg>
+            </button>
+            <div class="product-rail" tabindex="0" aria-label="Görgethető terméklista"></div>
+            <button class="rail-button rail-next" type="button" aria-label="Következő termékek">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg>
+            </button>
+          </div>
+        </section>
+
+        <div class="scroll-hint" aria-hidden="true">
+          <span></span>
+        </div>
+      </section>
+
+      <section class="intro-band" aria-label="Kiemelt szolgáltatások">
+        <div>
+          <strong>Fotóból gravír</strong>
+          <span>Portré, családi kép, kisállat vagy emlék egyedi felületre.</span>
+        </div>
+        <div>
+          <strong>Több méret</strong>
+          <span>Kulcstartótól nagy fali dekorációig, alkalomra igazítva.</span>
+        </div>
+        <div>
+          <strong>Ajándékra kész</strong>
+          <span>Személyes szöveggel, dátummal és rövid üzenettel kérhető.</span>
+        </div>
+      </section>
+
+      <section class="atelier-section" id="muhely">
+        <div class="media-panel" aria-label="Műhely hangulat">
+          <div class="engrave-preview">
+            <span class="laser-line"></span>
+            <span class="wood-disc"></span>
+          </div>
+        </div>
+        <div class="atelier-copy">
+          <p class="eyebrow">Kézzel összeállított részletek</p>
+          <h2>A tervtől a kész darabig végig személyes marad</h2>
+          <p>
+            A beküldött kép és megjegyzés alapján ellenőrizzük, hogy melyik
+            felülethez, mérethez és kontraszthoz illik legjobban az elképzelés.
+            A cél nem csak egy tárgy, hanem egy olyan emlék, amit jó kézbe venni.
+          </p>
+          <ul class="process-list">
+            <li><span>01</span>Kép vagy grafika feltöltése</li>
+            <li><span>02</span>Rövid megjegyzés az elképzelésről</li>
+            <li><span>03</span>Egyeztetés, gyártás, átadás vagy szállítás</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="order-section" id="rendeles">
+        <div class="section-heading">
+          <p class="eyebrow">Rendelésleadás</p>
+          <h2>Minden terméknél kérhet egyedi képet és üzenetet</h2>
+          <p>
+            A prototípus most bemutató rendelést készít. Éles webáruháznál a
+            kosár, fizetés és e-mail értesítés később beköthető.
+          </p>
+        </div>
+        <div class="order-grid">
+          <div class="order-step"><span>1</span>Válasszon kategóriát vagy terméket.</div>
+          <div class="order-step"><span>2</span>Töltse fel a gravírozandó képet.</div>
+          <div class="order-step"><span>3</span>Írja le a méretet, szöveget és hangulatot.</div>
+          <div class="order-step"><span>4</span>Küldje el az igényt egyeztetésre.</div>
+        </div>
+      </section>
+    </main>
+
+    <dialog class="product-modal" aria-labelledby="modal-title">
+      <form method="dialog" class="modal-card">
+        <button class="close-button" type="button" aria-label="Bezárás">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg>
+        </button>
+        <div class="modal-visual" id="modal-visual" aria-hidden="true"></div>
+        <div class="modal-content">
+          <p class="eyebrow" id="modal-category"></p>
+          <h3 id="modal-title"></h3>
+          <p class="modal-description" id="modal-description"></p>
+          <strong class="modal-price" id="modal-price"></strong>
+
+          <label class="field">
+            <span>Kép feltöltése a gravírozáshoz</span>
+            <input id="upload-input" type="file" accept="image/*" />
+          </label>
+          <p class="upload-name" id="upload-name">Még nincs kiválasztott kép.</p>
+
+          <label class="field">
+            <span>Megjegyzés az elképzeléshez</span>
+            <textarea id="note-input" rows="5" placeholder="Például: világosabb háttér, név és dátum, 20x30 cm-es méret..."></textarea>
+          </label>
+
+          <button class="primary-action full" type="submit">Rendelési igény elküldése</button>
+          <p class="fine-print">A gomb most bemutató jellegű, nem küld valódi fizetési rendelést.</p>
+        </div>
+      </form>
+    </dialog>
+
+    <div class="toast" role="status" aria-live="polite"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
